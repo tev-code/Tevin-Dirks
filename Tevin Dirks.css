@@ -1,0 +1,68 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: black;
+	color: orange;
+	text-align: left;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20;
+}
+
+#nav {
+	background: green;
+	color: lime;
+	overflow: auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	float: left;
+}
+
+nav a {
+	width: 120px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background: green;
+	font-size: 15px;
+	color: orange;
+	padding: 20px 10px;
+	font-family: 'Indie Flower', cursive;
+}
+	
+
+
+nav a:hover {
+	background: grey;
+	color: black;
+} 
+
+.me {
+	text-align: center;
+	
+}
+
+img:hover {
+	opacity: 0.5;
+}
+
+.interests {
+	text-align: center;
+}
+
+#but {
+	background: green;
+	color: orange;
+	font-family: 'Indie Flower', cursive;
+
+}
+
+.Skills {
+	text-align: center;
+}

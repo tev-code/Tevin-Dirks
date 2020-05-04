@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165456390-1"></script>
+   <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+
+   gtag('config', 'UA-165456390-1');
+  </script>
+
+
+	<link rel="stylesheet" type="text/css" href="Tevin Dirks.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+	               <title>Tevin Dirks Portfolio</title>
+</head>
+<body>
+        <div id="nav">
+	     <nav>
+		<ul>
+            <li><a href="index.html">About-Me</a></li>
+	
+			<li><a href="Interests.html">Interests</a></li>
+
+			<li><a href="Skills.html">Skill-Set</a></li>
+
+		</ul>
+		</nav>
+	</div>
+	<div class="interests">
+		                    <h1>Interests</h1>
+
+	<p>As cliche' as it may sound when it comes to interests I do enjoy sports especially the likes of soccer and mixed martial arts. Besides the physical side of life I like to stay up to date with the world of tech ranging from the gaming sector right through to new applications for different needs, I also enjoy the graphic and styling side of web development as I am allowed to express my creativity both in the functionality and appearance of websites/apps. That being said my ideal workplace would have to be along the lines of a fun, constant learning and creative environment where I am able to grow, offer my skill-set and express my skill-set to the best of my ability. </p>
+
+	<button id="but" onclick="displaycount()">TRY</button>
+	<p id="carrier">0</p>
+		
+	</div>
+
+
+</body>
+<script>
+	var count = (function () {
+		var counter = 0;
+		return function () {return counter +=1;}
+
+	})();
+
+function displaycount(){
+	document.getElementById("carrier").innerHTML = count();
+}
+</script>
+</html>
